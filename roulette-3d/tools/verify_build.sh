@@ -19,3 +19,16 @@ fi
 [ $code -eq 0 ] || { echo "Build run exit code $code" >&2; exit 1; }
 grep -q "Roulette 3D ready" build/verify.log || { echo "main scene did not start" >&2; exit 1; }
 echo "Build run OK: $(grep "Roulette 3D ready" build/verify.log); 600 frames headless, exit 0"
+
+# Spin check in the release build: each launch must start on the ball track (not left in
+# the last pocket), and the results must not all be one number.
+SPINS=6
+"$BIN" --headless -- --autospin=$SPINS > build/verify_spins.log 2>&1
+grep -E "^autospin" build/verify_spins.log
+launches=$(grep -c "^autospin launch" build/verify_spins.log)
+[ "$launches" -eq "$SPINS" ] || { echo "Spin check FAILED: $launches of $SPINS launches" >&2; exit 1; }
+off_track=$(grep "^autospin launch" build/verify_spins.log | awk '{split($4,a,"="); if (a[2] < 0.37) n++} END {print n+0}')
+[ "$off_track" -eq 0 ] || { echo "Spin check FAILED: $off_track launches did not start on the track" >&2; exit 1; }
+distinct=$(grep "^autospin settled" build/verify_spins.log | awk '{print $3}' | sort -u | wc -l | tr -d ' ')
+[ "$distinct" -gt 1 ] || { echo "Spin check FAILED: every spin landed on the same number" >&2; exit 1; }
+echo "Spin check OK: $SPINS launches on the track, $distinct different numbers"

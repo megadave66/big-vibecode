@@ -155,14 +155,13 @@ func launch_ball(rng: RandomNumberGenerator = null) -> void:
 	timed_out = false
 	_spin_time = 0.0
 	_hold = 0.0
-	_ball.freeze = false
-	_ball.global_transform = Transform3D(Basis.IDENTITY, to_global(local_pos))
-	_ball.linear_velocity = v_world
+	var w_world := Vector3.ZERO
 	# Start it rolling on the track floor (no slip) so it does not lose speed to skidding.
 	if launch_rolling:
-		_ball.angular_velocity = global_basis.y.cross(v_world) / WheelGeometry.BALL_RADIUS
-	else:
-		_ball.angular_velocity = Vector3.ZERO
+		w_world = global_basis.y.cross(v_world) / WheelGeometry.BALL_RADIUS
+	# Unfreeze first: changing freeze afterwards would clear the launch velocity.
+	_ball.freeze = false
+	_place_ball(Transform3D(Basis.IDENTITY, to_global(local_pos)), v_world, w_world)
 	_in_play = true
 	ball_launched.emit()
 
@@ -179,9 +178,22 @@ func reset_ball() -> void:
 	var r := WheelGeometry.WALL_R - WheelGeometry.BALL_RADIUS - 0.0005
 	var y := WheelGeometry.track_floor_y(r) + WheelGeometry.BALL_RADIUS * 1.03
 	_ball.freeze = true
-	_ball.linear_velocity = Vector3.ZERO
-	_ball.angular_velocity = Vector3.ZERO
-	_ball.global_transform = Transform3D(Basis.IDENTITY, to_global(PocketMath.point_at(launch_angle, r, y)))
+	_place_ball(Transform3D(Basis.IDENTITY, to_global(PocketMath.point_at(launch_angle, r, y))),
+			Vector3.ZERO, Vector3.ZERO)
+
+
+## Teleport the ball. Setting global_transform on an active RigidBody3D is not reliable:
+## in release exports the physics engine kept the old pose, so the ball stayed in its last
+## pocket and every spin gave the same number. Writing the state on the physics server
+## applies at once; the node properties keep the scene side in step.
+func _place_ball(tf: Transform3D, linear: Vector3, angular: Vector3) -> void:
+	var rid := _ball.get_rid()
+	PhysicsServer3D.body_set_state(rid, PhysicsServer3D.BODY_STATE_TRANSFORM, tf)
+	PhysicsServer3D.body_set_state(rid, PhysicsServer3D.BODY_STATE_LINEAR_VELOCITY, linear)
+	PhysicsServer3D.body_set_state(rid, PhysicsServer3D.BODY_STATE_ANGULAR_VELOCITY, angular)
+	_ball.global_transform = tf
+	_ball.linear_velocity = linear
+	_ball.angular_velocity = angular
 
 
 func highlight_pocket(number: int) -> void:

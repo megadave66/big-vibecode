@@ -26,7 +26,8 @@ This is the current state and how to resume. Godot 4.7.2 stable, GDScript, Jolt 
 | One suite | `tools/run_tests.sh -a res://tests/<name>_test.gd` |
 | Physics sim | `godot --headless --path . --fixed-fps 120 -s res://tools/sim_spins.gd -- --spins=500 --parallel=50` |
 | Export macOS | `tools/export_macos.sh` → `build/macos/Roulette3D.zip` |
-| Smoke-run the export | `tools/verify_build.sh` |
+| Smoke-run the export (also plays 6 spins in the release build) | `tools/verify_build.sh` |
+| Self-test any build: play N rounds, log ball start and result, quit | `<binary> -- --autospin=N` |
 | One autoplayed round + screenshots | `godot --path . -s res://tools/autoplay_shots.gd -- --out=<dir>` |
 
 Last results: 159/159 test cases in 18 suites green. The export is OK (59.8 MB zip), and the exported binary starts the main scene. See `TESTS.md`.

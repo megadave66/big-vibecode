@@ -24,6 +24,8 @@ var hud: Hud
 var rng := RandomNumberGenerator.new()
 var _modal: Control = null
 var _resolving := false
+var _autospin_left := 0
+var _autospin_results: Array[int] = []
 
 
 func _ready() -> void:
@@ -61,6 +63,11 @@ func _ready() -> void:
 	hud.set_phase(flow.phase)
 	_audio("start_ambient")
 	print("Roulette 3D ready: %d bet spots, bankroll %d" % [layout.spots().size(), flow.bankroll.balance])
+	_autospin_left = _parse_autospin()
+	if _autospin_left > 0:
+		wheel.ball_launched.connect(_on_autospin_launched)
+		flow.phase_changed.connect(_on_autospin_phase)
+		spin.call_deferred()
 
 
 func _spot_info(id: String) -> Dictionary:
@@ -211,6 +218,36 @@ func _close_modal() -> void:
 	_modal.queue_free()
 	_modal = null
 	_audio("play_sfx", ["ui_click"])
+
+
+## Self-test for exported builds: `-- --autospin=N` plays N rounds with no bets, logs where
+## the ball starts and lands, then quits. Exported builds ignore `-s`, so this is the way in.
+func _parse_autospin() -> int:
+	for arg in OS.get_cmdline_user_args():
+		if arg.begins_with("--autospin="):
+			return maxi(int(arg.get_slice("=", 1)), 0)
+	return 0
+
+
+func _on_autospin_launched() -> void:
+	await get_tree().physics_frame
+	await get_tree().physics_frame
+	var lp := wheel.to_local(wheel.get_ball().global_position)
+	print("autospin launch: ball r=%.3f y=%.3f speed=%.2f" % [Vector2(lp.x, lp.z).length(), lp.y,
+			wheel.get_ball().linear_velocity.length()])
+
+
+func _on_autospin_phase(phase: int) -> void:
+	if phase == RoundFlow.Phase.SETTLED:
+		_autospin_results.append(flow.winning_number)
+		print("autospin settled: %d" % flow.winning_number)
+	elif phase == RoundFlow.Phase.BETTING and _autospin_left > 0:
+		_autospin_left -= 1
+		if _autospin_left == 0:
+			print("autospin results: %s" % [_autospin_results])
+			get_tree().quit()
+		else:
+			spin.call_deferred()
 
 
 ## Call the Audio autoload if present (it is absent in some unit tests).

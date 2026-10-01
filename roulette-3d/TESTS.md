@@ -13,7 +13,7 @@ A box is ticked only when a real command run showed it. The last full run was on
 | One suite | `tools/run_tests.sh -a res://tests/<name>_test.gd` |
 | Physics sim, N spins | `godot --headless --path . --fixed-fps 120 -s res://tools/sim_spins.gd -- --spins=500 --parallel=50` |
 | Export macOS build | `tools/export_macos.sh` → `build/macos/Roulette3D.zip` |
-| Run the exported build (smoke) | `tools/verify_build.sh` |
+| Run the exported build (smoke + 6 release spins) | `tools/verify_build.sh` |
 | Play one round + screenshots | `godot --path . -s res://tools/autoplay_shots.gd -- --out=<dir>` |
 | Table / wheel screenshot | `godot --path . -s res://tools/screenshot.gd -- --scene=res://scenes/main.tscn --out=<png> --frames=30 --view=table` |
 | Wheel preview shots | `godot --path . -s res://tools/wheel_preview.gd` (see the file header) |
@@ -54,6 +54,7 @@ You can ignore one line in test runs: `ERROR: Remote Debugger: Unable to connect
 
 - [x] `tools/export_macos.sh` → `Export OK: build/macos/Roulette3D.zip (59828813 bytes)`. No script errors in `build/export.log`.
 - [x] `tools/verify_build.sh` → `Build run OK: Roulette 3D ready: 161 bet spots, bankroll 1000; 600 frames headless, exit 0`. That means the exported binary loads the main scene.
+- [x] `tools/verify_build.sh` spin check → `Spin check OK: 6 launches on the track, 4 different numbers`. The release build relaunches the ball from the track every round (regression check for the stuck-ball bug).
 
 ## Visual checks (screenshots inspected with the Read tool)
 
