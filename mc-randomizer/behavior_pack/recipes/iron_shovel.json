@@ -1,0 +1,32 @@
+{
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:iron_shovel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
+  },
+  "format_version": "1.20.10"
+}

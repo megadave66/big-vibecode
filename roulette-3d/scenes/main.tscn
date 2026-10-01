@@ -1,0 +1,82 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/camera/camera_rig.gd" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/table/table.tscn" id="3"]
+[ext_resource type="Script" path="res://scripts/input/table_input.gd" id="4"]
+
+[sub_resource type="Environment" id="Env"]
+background_mode = 1
+background_color = Color(0.015, 0.012, 0.018, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.35, 0.28, 0.25, 1)
+ambient_light_energy = 0.25
+tonemap_mode = 3
+tonemap_exposure = 1.0
+glow_enabled = true
+glow_intensity = 0.5
+glow_strength = 0.8
+glow_bloom = 0.05
+glow_hdr_threshold = 1.2
+
+[sub_resource type="StandardMaterial3D" id="FloorMat"]
+albedo_color = Color(0.07, 0.03, 0.04, 1)
+roughness = 1.0
+
+[sub_resource type="PlaneMesh" id="FloorMesh"]
+size = Vector2(12, 12)
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Env")
+
+[node name="Lights" type="Node3D" parent="."]
+
+[node name="TableSpot" type="SpotLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.46, 2.3, -0.04)
+light_color = Color(1, 0.86, 0.66, 1)
+light_energy = 2.6
+shadow_enabled = true
+spot_range = 5.0
+spot_angle = 48.0
+spot_angle_attenuation = 0.8
+
+[node name="WheelSpot" type="SpotLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, -0.58, 2.0, -0.04)
+light_color = Color(1, 0.9, 0.75, 1)
+light_energy = 2.2
+shadow_enabled = true
+spot_range = 4.0
+spot_angle = 30.0
+
+[node name="Fill" type="OmniLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2, 1.8, 1.8)
+light_color = Color(0.7, 0.75, 1, 1)
+light_energy = 0.25
+omni_range = 6.0
+
+[node name="Floor" type="MeshInstance3D" parent="."]
+material_override = SubResource("FloorMat")
+mesh = SubResource("FloorMesh")
+
+[node name="CameraRig" type="Node3D" parent="."]
+script = ExtResource("2")
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+current = true
+fov = 42.0
+near = 0.05
+far = 30.0
+
+[node name="Table" parent="." instance=ExtResource("3")]
+
+[node name="WheelAnchor" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58, 0.76, -0.04)
+
+[node name="TableInput" type="Node" parent="."]
+script = ExtResource("4")
+mapper_path = NodePath("../Table/TableLayoutMapper")
+
+[node name="UI" type="CanvasLayer" parent="."]

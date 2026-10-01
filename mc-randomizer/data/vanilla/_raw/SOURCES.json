@@ -1,0 +1,488 @@
+{
+  "repo": "https://github.com/Mojang/bedrock-samples",
+  "ref": "v1.21.0.3",
+  "license": "Minecraft EULA terms; see https://github.com/Mojang/bedrock-samples/blob/main/LICENSE.md",
+  "note": "Verbatim copies. 'sha' is the upstream git blob sha1; tools/gen_data_domains.py re-checks it.",
+  "files": {
+    "loot_tables/chests/abandoned_mineshaft.json": {
+      "sha": "8da40f0fe6f3f85df5ddca7687493ac833c89a7f",
+      "size": 5985,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/abandoned_mineshaft.json"
+    },
+    "loot_tables/chests/buriedtreasure.json": {
+      "sha": "f6fa0d0f43ef6a6bde0cc9a1cc12f47b37050381",
+      "size": 3742,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/buriedtreasure.json"
+    },
+    "loot_tables/chests/desert_pyramid.json": {
+      "sha": "c9f9592e7c7019b9cf4ea622bdb4f2b8abcf8cf6",
+      "size": 5225,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/desert_pyramid.json"
+    },
+    "loot_tables/chests/dispenser_trap.json": {
+      "sha": "36778a1d60f2028abb69f08efb0f09d464de789b",
+      "size": 423,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/dispenser_trap.json"
+    },
+    "loot_tables/chests/igloo_chest.json": {
+      "sha": "3590f52b63e4508960bb6cf1721f2e2bb3d17b4b",
+      "size": 1882,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/igloo_chest.json"
+    },
+    "loot_tables/chests/jungle_temple.json": {
+      "sha": "204a32371317a655d02743514e8b1c41f1d7753f",
+      "size": 3396,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/jungle_temple.json"
+    },
+    "loot_tables/chests/monster_room.json": {
+      "sha": "89e0a4090557d35647756770e7c70d85b62fd5ed",
+      "size": 2493,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/monster_room.json"
+    },
+    "loot_tables/chests/nether_bridge.json": {
+      "sha": "6129cb3367fa73619b0aafd65f62d699a06c1f09",
+      "size": 2721,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/nether_bridge.json"
+    },
+    "loot_tables/chests/pillager_outpost.json": {
+      "sha": "7058bb0214c78096f7a74656639166aca29d49f6",
+      "size": 4132,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/pillager_outpost.json"
+    },
+    "loot_tables/chests/shipwreck.json": {
+      "sha": "3729d05470eca13ecd64bd218870cace9375f59f",
+      "size": 1995,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/shipwreck.json"
+    },
+    "loot_tables/chests/shipwrecksupply.json": {
+      "sha": "82f8d4655f3418c441e0b7ac3066890458e46c7f",
+      "size": 5412,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/shipwrecksupply.json"
+    },
+    "loot_tables/chests/shipwrecktreasure.json": {
+      "sha": "7633f836f3375efc0579c64683ca30c6f58d6804",
+      "size": 2778,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/shipwrecktreasure.json"
+    },
+    "loot_tables/chests/simple_dungeon.json": {
+      "sha": "0e36dd5735c3c8c57af34fbca0339aa9759ac82d",
+      "size": 5538,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/simple_dungeon.json"
+    },
+    "loot_tables/chests/stronghold_corridor.json": {
+      "sha": "3237ede2986618cf82d23cbe569ed66802b1083f",
+      "size": 4285,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/stronghold_corridor.json"
+    },
+    "loot_tables/chests/stronghold_crossing.json": {
+      "sha": "62575709d83d60291b5c9aa34f9f9bc73bfe1558",
+      "size": 2740,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/stronghold_crossing.json"
+    },
+    "loot_tables/chests/stronghold_library.json": {
+      "sha": "9a1ecc544167c9940f0e5a38eef6dcc587a30c06",
+      "size": 1412,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/stronghold_library.json"
+    },
+    "loot_tables/chests/underwater_ruin_big.json": {
+      "sha": "b6c7be5b2322a29df317a7300ef5f1ecac04794f",
+      "size": 3360,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/underwater_ruin_big.json"
+    },
+    "loot_tables/chests/underwater_ruin_small.json": {
+      "sha": "1d13ccc4496dfb34128ed2b7ae850f9748384fa9",
+      "size": 2709,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/underwater_ruin_small.json"
+    },
+    "loot_tables/chests/village_blacksmith.json": {
+      "sha": "9fb268a9404c78047f1438ad3474c1eb8124d655",
+      "size": 3392,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/village_blacksmith.json"
+    },
+    "loot_tables/chests/village_two_room_house.json": {
+      "sha": "e097a7ec01020d0fc385beb8897cc1e0fea0f565",
+      "size": 1890,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/loot_tables/chests/village_two_room_house.json"
+    },
+    "recipes/acacia_planks.json": {
+      "sha": "fefae5b1a7ae8cb6080df2aba4ff3bbbf74ee430",
+      "size": 513,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/acacia_planks.json"
+    },
+    "recipes/arrow.json": {
+      "sha": "c6908c79845b40b6310db0bd016c8c9a7cfa8a72",
+      "size": 602,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/arrow.json"
+    },
+    "recipes/birch_planks.json": {
+      "sha": "c06b42044cb66f41d9156d563e3fbc262d58b1dd",
+      "size": 510,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/birch_planks.json"
+    },
+    "recipes/book.json": {
+      "sha": "c43a94035ea92c1747776547880e4a54ab84b06c",
+      "size": 645,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/book.json"
+    },
+    "recipes/bow.json": {
+      "sha": "e8429d634dd46edfb8086f8e6a375d1a08946309",
+      "size": 489,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/bow.json"
+    },
+    "recipes/bowl.json": {
+      "sha": "8dcc13b8fe9b3bbd1c9a054f57fb1e715da9c4d9",
+      "size": 705,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/bowl.json"
+    },
+    "recipes/bread.json": {
+      "sha": "68ec5aa36f478e1102c5ec007b3f47a67ffe52b7",
+      "size": 409,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/bread.json"
+    },
+    "recipes/bucket.json": {
+      "sha": "0add27ceb66793654c475f2342f0da281eb2fedd",
+      "size": 434,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/bucket.json"
+    },
+    "recipes/cake.json": {
+      "sha": "a49227218924eb0e79c3928a51ba151c670bc483",
+      "size": 682,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/cake.json"
+    },
+    "recipes/chest.json": {
+      "sha": "eb9e443f36d06ad43e8e644c3a19c53f17446e5b",
+      "size": 574,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/chest.json"
+    },
+    "recipes/clock.json": {
+      "sha": "e49c233a9a4141ed59a8bfdbf9329a81d85a351c",
+      "size": 502,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/clock.json"
+    },
+    "recipes/compass.json": {
+      "sha": "b1cc08afa45728bca5cbeae14c86fd057d5c9d24",
+      "size": 506,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/compass.json"
+    },
+    "recipes/cookie.json": {
+      "sha": "03a417f2f02a1b5fb55006c99cf8771b0b72290a",
+      "size": 519,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/cookie.json"
+    },
+    "recipes/crafting_table.json": {
+      "sha": "19264e9b494e22d2659f9e050f829fcfb74898f3",
+      "size": 534,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/crafting_table.json"
+    },
+    "recipes/dark_oak_planks.json": {
+      "sha": "2cc6800ccbd3b47481f9ab986b811c4e011aadf6",
+      "size": 515,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/dark_oak_planks.json"
+    },
+    "recipes/diamond_pickaxe.json": {
+      "sha": "5a51cde9c525d084f160b0305aebc11fe764af85",
+      "size": 515,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/diamond_pickaxe.json"
+    },
+    "recipes/diamond_sword.json": {
+      "sha": "2ffbf139f6f060c578a80918901482d6312a6d1a",
+      "size": 505,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/diamond_sword.json"
+    },
+    "recipes/fishing_rod.json": {
+      "sha": "416789c649d13f3d7bc212c3a04a4150a0210ff7",
+      "size": 505,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/fishing_rod.json"
+    },
+    "recipes/flint_and_steel.json": {
+      "sha": "3f85cd989fcf131fe954336f486ef5eb73ab6d0b",
+      "size": 497,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/flint_and_steel.json"
+    },
+    "recipes/furnace.json": {
+      "sha": "8f46884d987600b24d238e192fb158e4962e0f76",
+      "size": 493,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace.json"
+    },
+    "recipes/furnace_beef.json": {
+      "sha": "18885278de2b843c8a0a1d0d26283528fa1796ef",
+      "size": 351,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_beef.json"
+    },
+    "recipes/furnace_chicken.json": {
+      "sha": "73261def978c1c4419db43f5412547ac5e80bca7",
+      "size": 363,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_chicken.json"
+    },
+    "recipes/furnace_cobblestone.json": {
+      "sha": "a2f5385f0bb102a746e51d831359f903b657d1e2",
+      "size": 327,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_cobblestone.json"
+    },
+    "recipes/furnace_deepslate_iron_ore.json": {
+      "sha": "2bec672a79acd64881a12df7038990e441e29fee",
+      "size": 370,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_deepslate_iron_ore.json"
+    },
+    "recipes/furnace_fish.json": {
+      "sha": "a0fd34a10d0d8f552be36b9adbc487e0b60379a1",
+      "size": 350,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_fish.json"
+    },
+    "recipes/furnace_gold_ore.json": {
+      "sha": "b13665d46bcabcc19fbfa4fb84fc688abb135d96",
+      "size": 340,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_gold_ore.json"
+    },
+    "recipes/furnace_iron_ore.json": {
+      "sha": "b1420d91502b7f7010ea35e282f714966b78b428",
+      "size": 340,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_iron_ore.json"
+    },
+    "recipes/furnace_kelp.json": {
+      "sha": "23161b1c16a52099f6cbb40c0720b4360029bde4",
+      "size": 350,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_kelp.json"
+    },
+    "recipes/furnace_porkchop.json": {
+      "sha": "cc195632f9100b7073c9a721e10a1c8220c749a9",
+      "size": 367,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_porkchop.json"
+    },
+    "recipes/furnace_potato.json": {
+      "sha": "b2d4856b4e5efbabfe0c311db602cc05367cbf84",
+      "size": 358,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_potato.json"
+    },
+    "recipes/furnace_rabbit.json": {
+      "sha": "b9d7d9fc4cf3889e07aaf6f57d1a941d227fca6a",
+      "size": 359,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_rabbit.json"
+    },
+    "recipes/furnace_salmon.json": {
+      "sha": "5b55e362abfff685101d5f263e29628bc01d3deb",
+      "size": 359,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_salmon.json"
+    },
+    "recipes/furnace_sand.json": {
+      "sha": "f23bf3a5dea344588ea44f791e19cbe4c308438e",
+      "size": 306,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_sand.json"
+    },
+    "recipes/furnace_stone.json": {
+      "sha": "1d15d56a17564343b491b5710971348fb2c5f40e",
+      "size": 326,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/furnace_stone.json"
+    },
+    "recipes/iron_axe.json": {
+      "sha": "e62474154b285b0d02283134646a2d64956e98b1",
+      "size": 510,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_axe.json"
+    },
+    "recipes/iron_block.json": {
+      "sha": "425c54c854f9dbed2d1c5eeb089d19dda7fc2def",
+      "size": 461,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_block.json"
+    },
+    "recipes/iron_boots.json": {
+      "sha": "923a71c87be983aff137f599e52675592e356a32",
+      "size": 448,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_boots.json"
+    },
+    "recipes/iron_chestplate.json": {
+      "sha": "99311d00ee4eab8529eb3bd062b625d3d2043a3e",
+      "size": 471,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_chestplate.json"
+    },
+    "recipes/iron_helmet.json": {
+      "sha": "04fd9ccfaf3bd090154a4b7ed4588e9c3b24c900",
+      "size": 450,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_helmet.json"
+    },
+    "recipes/iron_hoe.json": {
+      "sha": "2402cbd079308ef618d2e52238295c0984483322",
+      "size": 510,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_hoe.json"
+    },
+    "recipes/iron_ingot_from_block.json": {
+      "sha": "884f3e70e55c6c7c4195d824de5c646efd8e8cca",
+      "size": 489,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_ingot_from_block.json"
+    },
+    "recipes/iron_leggings.json": {
+      "sha": "8ce639e40ade11a27376c4111f36e13e6e6e78c0",
+      "size": 467,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_leggings.json"
+    },
+    "recipes/iron_pickaxe.json": {
+      "sha": "73a564851366acc815d6dea3154d7393cf41c10a",
+      "size": 521,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_pickaxe.json"
+    },
+    "recipes/iron_shovel.json": {
+      "sha": "59964370f7d51f51682d1a8b67ffb2d73bfafcf1",
+      "size": 513,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_shovel.json"
+    },
+    "recipes/iron_sword.json": {
+      "sha": "30aa63cef6e0da33b944ad44180c0bfd284813bc",
+      "size": 511,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/iron_sword.json"
+    },
+    "recipes/jungle_planks.json": {
+      "sha": "cbf9bee14f1937fbc613afa9cbfdc7b07e1e7a3b",
+      "size": 511,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/jungle_planks.json"
+    },
+    "recipes/ladder.json": {
+      "sha": "5f768f3752a3dc561dd53a14ae57bfe6f5021e74",
+      "size": 458,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/ladder.json"
+    },
+    "recipes/oak_fence.json": {
+      "sha": "903799fcea8841b55ec8b8211fa9b395a3e39e55",
+      "size": 719,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/oak_fence.json"
+    },
+    "recipes/oak_planks.json": {
+      "sha": "ff65f9bcc0136c3582852f24dacb8a72f7aff4f7",
+      "size": 508,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/oak_planks.json"
+    },
+    "recipes/paper.json": {
+      "sha": "f8ebaefed2ef2ee3444d25256f6ce603fb9c70f5",
+      "size": 430,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/paper.json"
+    },
+    "recipes/shears.json": {
+      "sha": "ea26f7354d6acc87a9eec938f4491ac8fd0eb4ab",
+      "size": 432,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/shears.json"
+    },
+    "recipes/shield.json": {
+      "sha": "ae2a87a315f9d74f467ecc671c7c9f98e7d73573",
+      "size": 520,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/shield.json"
+    },
+    "recipes/spruce_planks.json": {
+      "sha": "ab2d6ed76415e952f70ad09b8f7b39a5cbc79100",
+      "size": 511,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/spruce_planks.json"
+    },
+    "recipes/stick.json": {
+      "sha": "dd8ab6dcb0e9ce2c227d89cf709640f0e799e968",
+      "size": 580,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/stick.json"
+    },
+    "recipes/stone_axe.json": {
+      "sha": "f152842c346df23e635d2e50aba696777df74cb0",
+      "size": 543,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/stone_axe.json"
+    },
+    "recipes/stone_hoe.json": {
+      "sha": "7eedc3720b76c19d6e248a3a8dcac7623b61abe5",
+      "size": 543,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/stone_hoe.json"
+    },
+    "recipes/stone_pickaxe.json": {
+      "sha": "1e5c9eecaa4c5b97de0a4b8cd1a0c936915d2462",
+      "size": 554,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/stone_pickaxe.json"
+    },
+    "recipes/stone_shovel.json": {
+      "sha": "8362c7a1447924f175a5dd2d17d7184949eed453",
+      "size": 547,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/stone_shovel.json"
+    },
+    "recipes/stone_sword.json": {
+      "sha": "08b669e74f7e33e2d1e3469a59217e12ed8fb819",
+      "size": 542,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/stone_sword.json"
+    },
+    "recipes/torch.json": {
+      "sha": "c1fb99b1b97d174d5bb96b3a33623fd1913fd765",
+      "size": 518,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/torch.json"
+    },
+    "recipes/wooden_axe.json": {
+      "sha": "b989d2921dc087db0d75667b75200005360af497",
+      "size": 500,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/wooden_axe.json"
+    },
+    "recipes/wooden_hoe.json": {
+      "sha": "7938370cd261e078f7d4c67a1a0bd069d14b7659",
+      "size": 499,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/wooden_hoe.json"
+    },
+    "recipes/wooden_pickaxe.json": {
+      "sha": "614044cf18f38789a5af85bd0b78b000ab1ffe76",
+      "size": 511,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/wooden_pickaxe.json"
+    },
+    "recipes/wooden_shovel.json": {
+      "sha": "9ae4f622149a22edb3424302878db1ab02f88efa",
+      "size": 503,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/wooden_shovel.json"
+    },
+    "recipes/wooden_sword.json": {
+      "sha": "e004a827e63be27eed9080e0d96fc4223d26a007",
+      "size": 499,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/recipes/wooden_sword.json"
+    },
+    "trading/economy_trades/armorer_trades.json": {
+      "sha": "31d6fd2973645f0c972a3b152b7cb2fcd39bbace",
+      "size": 11164,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/armorer_trades.json"
+    },
+    "trading/economy_trades/butcher_trades.json": {
+      "sha": "c1af7335e0a9d4220921e465fda029eb2930a348",
+      "size": 6290,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/butcher_trades.json"
+    },
+    "trading/economy_trades/cleric_trades.json": {
+      "sha": "7fa943515fa1ef6976e2c25717e7726e19e019a3",
+      "size": 6559,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/cleric_trades.json"
+    },
+    "trading/economy_trades/farmer_trades.json": {
+      "sha": "c6b2ec7e61430270e126ac86593cf6bb7868db41",
+      "size": 8170,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/farmer_trades.json"
+    },
+    "trading/economy_trades/fisherman_trades.json": {
+      "sha": "fba7a6b0a37d5e3c4bdb6910fbc7942d9f71b354",
+      "size": 9225,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/fisherman_trades.json"
+    },
+    "trading/economy_trades/fletcher_trades.json": {
+      "sha": "b8b3c7648425b0d836d51e6a24ebd3cd0384c0f1",
+      "size": 9915,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/fletcher_trades.json"
+    },
+    "trading/economy_trades/leather_worker_trades.json": {
+      "sha": "346d71c1d6436cce636fef7f6a18f0a915c32031",
+      "size": 7987,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/leather_worker_trades.json"
+    },
+    "trading/economy_trades/shepherd_trades.json": {
+      "sha": "52b5a6bb605199a9cb93ffe72819ae462c32ebc2",
+      "size": 10789,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/shepherd_trades.json"
+    },
+    "trading/economy_trades/tool_smith_trades.json": {
+      "sha": "fd11c068c55a298ef1c27a030026941ceadb81ee",
+      "size": 10796,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/tool_smith_trades.json"
+    },
+    "trading/economy_trades/wandering_trader_trades.json": {
+      "sha": "b72ed6f0e39e66d72d9b4d3baff2be4fd835920b",
+      "size": 17613,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/wandering_trader_trades.json"
+    },
+    "trading/economy_trades/weapon_smith_trades.json": {
+      "sha": "7854722ad086c50ef75f947fba65d9741bfd708e",
+      "size": 6435,
+      "url": "https://github.com/Mojang/bedrock-samples/blob/v1.21.0.3/behavior_pack/trading/economy_trades/weapon_smith_trades.json"
+    }
+  }
+}

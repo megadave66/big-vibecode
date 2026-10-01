@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:mud_bricks",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:polished_tuff_slab",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dead_tube_coral_block",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mangrove_pressure_plate",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:nether_brick_slab",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:dark_oak_planks",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:grindstone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gray_shulker_box",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:orange_carpet",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "mc-randomizer",
+    "description": "Randomizes item outcomes across every domain: block drops, mob drops, crafting results, furnace smelting, chest loot, fishing, and villager trades.",
+    "uuid": "8712ed58-c46d-4b2d-b8fc-4b14e00d9954",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "4dee380b-13cc-4a3a-a949-a1ad95725d2a",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "69fe247b-4f1c-49b1-90a0-4ea953fa3ece",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ]
+}

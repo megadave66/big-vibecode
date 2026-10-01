@@ -1,0 +1,28 @@
+{
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:bucket"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:moss_carpet"
+    }
+  },
+  "format_version": "1.20.10"
+}

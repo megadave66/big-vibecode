@@ -1,0 +1,18 @@
+{
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_cobblestone"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": "minecraft:cobblestone",
+    "output": "minecraft:warped_fungus"
+  },
+  "format_version": "1.20.10"
+}

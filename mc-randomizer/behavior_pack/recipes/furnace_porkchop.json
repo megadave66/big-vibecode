@@ -1,0 +1,21 @@
+{
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_porkchop"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:porkchop"
+      }
+    ],
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire",
+      "soul_campfire"
+    ],
+    "input": "minecraft:porkchop",
+    "output": "minecraft:white_carpet"
+  },
+  "format_version": "1.20.10"
+}

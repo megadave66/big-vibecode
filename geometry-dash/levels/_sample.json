@@ -1,0 +1,419 @@
+{
+ "format": 1,
+ "id": 1,
+ "name": "Sample",
+ "difficulty": 3,
+ "music": "music/track01.ogg",
+ "start": {
+  "mode": "cube",
+  "speed": "normal",
+  "gravity": "down"
+ },
+ "ceiling": 12,
+ "colors": {
+  "bg": "#203a8f",
+  "ground": "#1a2f6e",
+  "accent": "#5fd0ff"
+ },
+ "objects": [
+  {
+   "type": "spike",
+   "x": 14,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 22,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 23,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 24,
+   "y": 0
+  },
+  {
+   "type": "block",
+   "x": 34,
+   "y": 0,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "type": "block",
+   "x": 35,
+   "y": 0,
+   "w": 1,
+   "h": 2
+  },
+  {
+   "type": "block",
+   "x": 36,
+   "y": 0,
+   "w": 1,
+   "h": 3
+  },
+  {
+   "type": "block",
+   "x": 37,
+   "y": 0,
+   "w": 3,
+   "h": 1
+  },
+  {
+   "type": "spike",
+   "x": 44,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 47,
+   "y": 0
+  },
+  {
+   "type": "block",
+   "x": 55,
+   "y": 0,
+   "w": 1,
+   "h": 2
+  },
+  {
+   "type": "spike",
+   "x": 66,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 67,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 68,
+   "y": 0
+  },
+  {
+   "type": "platform",
+   "x": 64,
+   "y": 1.5,
+   "w": 7
+  },
+  {
+   "type": "block",
+   "x": 80,
+   "y": 0,
+   "w": 2,
+   "h": 1
+  },
+  {
+   "type": "spike",
+   "x": 84,
+   "y": 0
+  },
+  {
+   "type": "block",
+   "x": 86,
+   "y": 0,
+   "w": 2,
+   "h": 2
+  },
+  {
+   "type": "spike",
+   "x": 90,
+   "y": 0
+  },
+  {
+   "type": "portal_speed",
+   "x": 100,
+   "speed": "fast"
+  },
+  {
+   "type": "spike",
+   "x": 110,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 111,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 112,
+   "y": 0
+  },
+  {
+   "type": "block",
+   "x": 120,
+   "y": 0,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "type": "platform",
+   "x": 123,
+   "y": 1.5,
+   "w": 2
+  },
+  {
+   "type": "block",
+   "x": 127,
+   "y": 0,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "type": "portal_speed",
+   "x": 136,
+   "speed": "normal"
+  },
+  {
+   "type": "portal_mode",
+   "x": 140,
+   "mode": "ship"
+  },
+  {
+   "type": "block",
+   "x": 150,
+   "y": 0,
+   "w": 10,
+   "h": 2
+  },
+  {
+   "type": "block",
+   "x": 150,
+   "y": 10,
+   "w": 10,
+   "h": 2
+  },
+  {
+   "type": "block",
+   "x": 160,
+   "y": 0,
+   "w": 10,
+   "h": 3
+  },
+  {
+   "type": "block",
+   "x": 165,
+   "y": 9,
+   "w": 10,
+   "h": 3
+  },
+  {
+   "type": "block",
+   "x": 175,
+   "y": 0,
+   "w": 10,
+   "h": 4
+  },
+  {
+   "type": "block",
+   "x": 175,
+   "y": 8,
+   "w": 10,
+   "h": 4
+  },
+  {
+   "type": "spike",
+   "x": 190,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 196,
+   "y": 10,
+   "dir": "down"
+  },
+  {
+   "type": "block",
+   "x": 200,
+   "y": 0,
+   "w": 6,
+   "h": 2
+  },
+  {
+   "type": "block",
+   "x": 200,
+   "y": 9,
+   "w": 6,
+   "h": 3
+  },
+  {
+   "type": "block",
+   "x": 210,
+   "y": 0,
+   "w": 8,
+   "h": 1
+  },
+  {
+   "type": "portal_mode",
+   "x": 224,
+   "mode": "cube"
+  },
+  {
+   "type": "spike",
+   "x": 232,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 233,
+   "y": 0
+  },
+  {
+   "type": "portal_gravity",
+   "x": 240,
+   "gravity": "up"
+  },
+  {
+   "type": "spike",
+   "x": 250,
+   "y": 11,
+   "dir": "down"
+  },
+  {
+   "type": "spike",
+   "x": 251,
+   "y": 11,
+   "dir": "down"
+  },
+  {
+   "type": "spike",
+   "x": 252,
+   "y": 11,
+   "dir": "down"
+  },
+  {
+   "type": "block",
+   "x": 258,
+   "y": 10,
+   "w": 1,
+   "h": 2
+  },
+  {
+   "type": "block",
+   "x": 262,
+   "y": 10,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "type": "spike",
+   "x": 268,
+   "y": 11,
+   "dir": "down"
+  },
+  {
+   "type": "portal_gravity",
+   "x": 275,
+   "gravity": "down"
+  },
+  {
+   "type": "block",
+   "x": 285,
+   "y": 0,
+   "w": 1,
+   "h": 1
+  },
+  {
+   "type": "block",
+   "x": 286,
+   "y": 0,
+   "w": 1,
+   "h": 2
+  },
+  {
+   "type": "spike",
+   "x": 292,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 293,
+   "y": 0
+  },
+  {
+   "type": "portal_speed",
+   "x": 300,
+   "speed": "fast"
+  },
+  {
+   "type": "spike",
+   "x": 310,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 311,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 312,
+   "y": 0
+  },
+  {
+   "type": "block",
+   "x": 322,
+   "y": 0,
+   "w": 1,
+   "h": 2
+  },
+  {
+   "type": "platform",
+   "x": 326,
+   "y": 1.5,
+   "w": 3
+  },
+  {
+   "type": "spike",
+   "x": 340,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 342,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 350,
+   "y": 0
+  },
+  {
+   "type": "spike",
+   "x": 351,
+   "y": 0
+  },
+  {
+   "type": "block",
+   "x": 362,
+   "y": 0,
+   "w": 2,
+   "h": 2
+  },
+  {
+   "type": "deco",
+   "x": 20,
+   "y": 0,
+   "w": 1,
+   "h": 3,
+   "kind": "pillar"
+  },
+  {
+   "type": "deco",
+   "x": 60,
+   "y": 9,
+   "kind": "star"
+  },
+  {
+   "type": "end_wall",
+   "x": 420
+  }
+ ]
+}

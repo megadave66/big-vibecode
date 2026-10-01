@@ -1,0 +1,102 @@
+[
+  {
+    "file": "music/track01.ogg",
+    "title": "Menu Title 1 (relaxed)",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 51.958,
+    "bpm": null,
+    "source": "https://opengameart.org/content/12-music-loops",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track02.ogg",
+    "title": "Chiptune Adventures: Stage 1",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 41.143,
+    "bpm": null,
+    "source": "https://opengameart.org/content/4-chiptunes-adventure",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track03.ogg",
+    "title": "Chiptune Adventures: Stage 2",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.001,
+    "bpm": null,
+    "source": "https://opengameart.org/content/4-chiptunes-adventure",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track04.ogg",
+    "title": "Retro Sports: Stage 3",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.001,
+    "bpm": null,
+    "source": "https://opengameart.org/content/12-music-loops",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track05.ogg",
+    "title": "Retro Game Music Pack: Level 1",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.001,
+    "bpm": null,
+    "source": "https://opengameart.org/content/5-chiptunes-action",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track06.ogg",
+    "title": "Super Action Chiptunes: Stage 6",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.001,
+    "bpm": null,
+    "source": "https://opengameart.org/content/12-music-loops",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track07.ogg",
+    "title": "Retro Game Music Pack: Level 2",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.001,
+    "bpm": null,
+    "source": "https://opengameart.org/content/5-chiptunes-action",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track08.ogg",
+    "title": "Super Action Chiptunes: Stage 7",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.0,
+    "bpm": null,
+    "source": "https://opengameart.org/content/12-music-loops",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track09.ogg",
+    "title": "Retro Game Music Pack: Level 3",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.001,
+    "bpm": null,
+    "source": "https://opengameart.org/content/5-chiptunes-action",
+    "licence": "CC0",
+    "generated": false
+  },
+  {
+    "file": "music/track10.ogg",
+    "title": "Heavy Metal Chiptunes: Stage F (faster)",
+    "author": "SubspaceAudio (Juhani Junkala)",
+    "seconds": 52.001,
+    "bpm": null,
+    "source": "https://opengameart.org/content/12-music-loops",
+    "licence": "CC0",
+    "generated": false
+  }
+]
