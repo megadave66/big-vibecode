@@ -1,0 +1,10 @@
+{
+  "name": "mc-randomizer-dev",
+  "private": true,
+  "description": "Dev-only tooling: API typings for type-checking scripts/*.js. Not shipped in the pack.",
+  "devDependencies": {
+    "@minecraft/server": "1.11.0",
+    "@minecraft/vanilla-data": "1.21.0",
+    "typescript": "^5.9.3"
+  }
+}

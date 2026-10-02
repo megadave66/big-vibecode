@@ -1,0 +1,131 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:light_blue_carpet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gray_dye",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:smooth_quartz_stairs",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:powder_snow_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:red_wool",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chiseled_polished_blackstone",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone_block",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:waxed_exposed_copper",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 14
+        },
+        {
+          "type": "item",
+          "name": "minecraft:magenta_shulker_box",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

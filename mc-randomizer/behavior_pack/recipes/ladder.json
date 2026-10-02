@@ -1,0 +1,30 @@
+{
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:ladder"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# #",
+      "###",
+      "# #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "result": {
+      "item": "minecraft:spruce_pressure_plate",
+      "count": 3
+    }
+  },
+  "format_version": "1.20.10"
+}

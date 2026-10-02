@@ -1,0 +1,30 @@
+{
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:furnace"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "# #",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "tag": "minecraft:stone_crafting_materials"
+      }
+    },
+    "unlock": [
+      {
+        "tag": "minecraft:stone_crafting_materials"
+      }
+    ],
+    "result": {
+      "item": "minecraft:waxed_weathered_copper"
+    },
+    "priority": -1
+  },
+  "format_version": "1.20.10"
+}

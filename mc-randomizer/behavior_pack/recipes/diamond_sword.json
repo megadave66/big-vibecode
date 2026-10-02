@@ -1,0 +1,32 @@
+{
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:diamond_sword"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:diamond"
+      }
+    ],
+    "result": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "format_version": "1.20.10"
+}

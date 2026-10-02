@@ -1,0 +1,28 @@
+{
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:shears"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " #",
+      "# "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:smoker"
+    }
+  },
+  "format_version": "1.20.10"
+}

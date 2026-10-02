@@ -1,0 +1,21 @@
+{
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_salmon"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:salmon"
+      }
+    ],
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire",
+      "soul_campfire"
+    ],
+    "input": "minecraft:salmon",
+    "output": "minecraft:stone_axe"
+  },
+  "format_version": "1.20.10"
+}

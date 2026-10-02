@@ -1,0 +1,194 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:end_bricks",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "minecraft:mangrove_pressure_plate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_blue_carpet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sentry_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 9
+              }
+            }
+          ],
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 75
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cut_copper",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 75
+        },
+        {
+          "type": "item",
+          "name": "minecraft:raw_copper",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:waxed_exposed_copper_bulb",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:light_blue_shulker_box",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:acacia_sapling",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dead_tube_coral",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:tuff_wall",
+          "weight": 25
+        },
+        {
+          "type": "item",
+          "name": "minecraft:red_dye",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:red_wool",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone_block",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chiseled_polished_blackstone",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:waxed_exposed_copper",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blue_orchid",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "empty",
+          "weight": 9
+        },
+        {
+          "type": "item",
+          "name": "minecraft:stone_pressure_plate",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

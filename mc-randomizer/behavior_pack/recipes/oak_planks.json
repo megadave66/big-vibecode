@@ -1,0 +1,31 @@
+{
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:oak_planks"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "group": "planks",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:log",
+        "data": 0
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:log",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:brewer_pottery_sherd",
+      "count": 4
+    }
+  },
+  "format_version": "1.20.10"
+}

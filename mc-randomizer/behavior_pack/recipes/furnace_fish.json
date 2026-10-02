@@ -1,0 +1,21 @@
+{
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_fish"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:fish"
+      }
+    ],
+    "tags": [
+      "furnace",
+      "smoker",
+      "campfire",
+      "soul_campfire"
+    ],
+    "input": "minecraft:fish",
+    "output": "minecraft:warped_fence_gate"
+  },
+  "format_version": "1.20.10"
+}
